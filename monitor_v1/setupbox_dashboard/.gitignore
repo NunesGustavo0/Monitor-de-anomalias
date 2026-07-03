@@ -1,0 +1,14 @@
+# Virtual environment (uv creates a local .venv)
+.venv/
+
+# Environment variables and secrets
+.env
+
+# Distribution / packaging (if building wheels or source distributions)
+dist/
+build/
+
+# Python bytecode caches
+__pycache__/
+*.py[cod]
+*$py.class
