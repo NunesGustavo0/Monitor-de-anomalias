@@ -1,0 +1,24 @@
+BPMN TO-BE - Monitor de Anomalias SetupBox
+
+Início
+→ Novo arquivo de log chega na pasta logs
+→ Monitor verifica periodicamente a pasta
+→ Arquivo já foi processado?
+   ├─ Sim: ignorar e aguardar próxima verificação
+   └─ Não: carregar dados
+→ Criar janela móvel dos últimos 100 registros
+→ Calcular baseline estatístico
+→ Executar regras de anomalia
+→ Existe anomalia sistemática?
+   ├─ Não: registrar processamento e aguardar próximo arquivo
+   └─ Sim: classificar severidade
+→ Gerar alerta estruturado
+→ Salvar alerta em CSV
+→ Registrar auditoria
+→ Severidade Alta ou Crítica?
+   ├─ Sim: enviar para HITL/revisão humana
+   └─ Não: apenas acompanhar
+→ Enviar alerta por canal configurado
+→ Registrar arquivo como processado
+→ Gerar relatório periódico
+→ Fim / nova verificação
