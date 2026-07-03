@@ -1,6 +1,6 @@
 # Relatório de Anomalias de Gravação - Setup Box
 
-## 1. BPMN textual do processo as-is
+## 1. BPMN textual do processo as-is.
 
 ```mermaid
 flowchart TD
