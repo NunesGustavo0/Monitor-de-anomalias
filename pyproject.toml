@@ -1,0 +1,16 @@
+[project]
+name = "monitor-de-anomalias"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.0",
+    "openpyxl>=3.1.5",
+    "pandas>=3.0.3",
+    "plotly>=6.8.0",
+    "requests>=2.34.2",
+    "scikit-learn>=1.9.0",
+    "streamlit>=1.58.0",
+    "tabulate>=0.10.0",
+]
